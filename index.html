@@ -1,15 +1,61 @@
 <!doctype html>
-<html>
-  <body style="
-    margin:0;
-    height:100vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    background:black;
-    color:lime;
-    font-size:32px;
-    font-family:monospace;">
-    TEST OK
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Astra Syndrome</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+
+      /* 배경 이미지 */
+      background: url("Astra.png") no-repeat center center fixed;
+      background-size: cover;
+
+      color: #ffffff;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    /* 상단 제목 */
+    header {
+      padding-top: 40px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+
+    /* 하단 카피라이트 */
+    footer {
+      padding-bottom: 20px;
+      font-size: 0.75rem;
+      opacity: 0.7;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Astra Syndrome</h1>
+  </header>
+
+  <footer>
+    Copyright © 2026. Jong Art. All Rights Reserved.
+  </footer>
+</body>
 </html>
